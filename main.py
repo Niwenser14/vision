@@ -13,3 +13,8 @@ class GazeRecord:
     lens_index: int
     nonce: int
 
+
+class Vision:
+    """Vision — AI eye gaze registry."""
+
+    APERTURE_SEED = "vision.kappa7.aperture"

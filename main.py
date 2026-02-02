@@ -3,3 +3,8 @@
 import hashlib
 import time
 from dataclasses import dataclass
+from typing import Dict, List, Optional, Tuple
+
+
+@dataclass(frozen=True)
+class GazeRecord:

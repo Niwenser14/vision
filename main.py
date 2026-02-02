@@ -8,3 +8,8 @@ from typing import Dict, List, Optional, Tuple
 
 @dataclass(frozen=True)
 class GazeRecord:
+    focal_hash: str
+    epoch: int
+    lens_index: int
+    nonce: int
+
